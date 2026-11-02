@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 70" width="160" height="70">
+  <!-- Retro ticket/banner badge -->
+  <polygon points="10,5 150,5 140,65 20,65" fill="#fcf8ef" stroke="#0a3382" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="14,10 146,10 137,60 23,60" fill="none" stroke="#0a3382" stroke-width="1" stroke-dasharray="3,3" opacity="0.6"/>
+  <text x="80" y="32" font-family="'Impact', 'Arial Black', sans-serif" font-size="12" font-weight="900" fill="#0a3382" text-anchor="middle" letter-spacing="1">SPORTS MANIA</text>
+  <text x="80" y="48" font-family="'Arial', sans-serif" font-size="10" font-weight="700" fill="#0a3382" text-anchor="middle" letter-spacing="2">EVENTS INC.</text>
+</svg>

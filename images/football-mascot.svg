@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" width="340" height="280">
+  <defs>
+    <style>
+      .stroke-main { stroke: #0a3382; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-detail { stroke: #0a3382; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-cream { fill: #fcf8ef; }
+      .fill-white { fill: #ffffff; }
+      .fill-blue { fill: #0a3382; }
+      .sparkle { fill: #0a3382; }
+    </style>
+  </defs>
+
+  <!-- Sparkles / Starbursts around -->
+  <!-- Top left sparkle -->
+  <path class="sparkle" d="M 45 45 Q 45 55 35 55 Q 45 55 45 65 Q 45 55 55 55 Q 45 55 45 45 Z" />
+  <line x1="38" y1="48" x2="52" y2="62" stroke="#0a3382" stroke-width="1.5" />
+  <line x1="52" y1="48" x2="38" y2="62" stroke="#0a3382" stroke-width="1.5" />
+
+  <!-- Mid left sparkle -->
+  <path class="sparkle" d="M 68 150 Q 68 158 60 158 Q 68 158 68 166 Q 68 158 76 158 Q 68 158 68 150 Z" />
+
+  <!-- Top right sparkle -->
+  <path class="sparkle" d="M 285 40 Q 285 52 273 52 Q 285 52 285 64 Q 285 52 297 52 Q 285 52 285 40 Z" />
+  <line x1="277" y1="44" x2="293" y2="60" stroke="#0a3382" stroke-width="1.5" />
+  <line x1="293" y1="44" x2="277" y2="60" stroke="#0a3382" stroke-width="1.5" />
+
+  <!-- Mid right sparkle -->
+  <path class="sparkle" d="M 310 140 Q 310 147 303 147 Q 310 147 310 154 Q 310 147 317 147 Q 310 147 310 140 Z" />
+
+  <!-- Back Left Leg -->
+  <path d="M 145 195 Q 125 215 118 240" fill="none" class="stroke-main" />
+  <!-- Left Shoe running backwards -->
+  <path d="M 105 242 C 105 235 125 230 135 238 C 142 244 135 252 115 252 C 103 252 105 245 105 242 Z" fill="#ffffff" class="stroke-detail" />
+  <line x1="112" y1="248" x2="130" y2="248" class="stroke-detail" />
+
+  <!-- Front Right Leg -->
+  <path d="M 175 195 Q 185 220 180 245" fill="none" class="stroke-main" />
+  <!-- Right Shoe planted forward -->
+  <path d="M 170 248 C 170 240 185 240 200 245 C 208 248 206 256 185 256 C 172 256 170 252 170 248 Z" fill="#ffffff" class="stroke-detail" />
+  <line x1="176" y1="252" x2="198" y2="252" class="stroke-detail" />
+
+  <!-- Left Arm (behind/holding pose) -->
+  <path d="M 120 160 Q 85 155 92 180" fill="none" class="stroke-main" />
+  <circle cx="94" cy="183" r="7" fill="#ffffff" class="stroke-detail" />
+  <path d="M 88 185 Q 96 195 102 186" fill="#ffffff" class="stroke-detail" />
+
+  <!-- Main Football Body -->
+  <!-- Classic American football prolate spheroid shape tilted -->
+  <g transform="rotate(-15 165 140)">
+    <!-- Outer Football Body -->
+    <path d="M 85 140 C 95 80 235 80 245 140 C 235 200 95 200 85 140 Z" fill="#ffffff" class="stroke-main" />
+    
+    <!-- Left Stripe -->
+    <path d="M 115 105 C 122 125 122 155 115 175" fill="none" class="stroke-detail" stroke-dasharray="2,0" />
+    <!-- Right Stripe -->
+    <path d="M 215 105 C 208 125 208 155 215 175" fill="none" class="stroke-detail" stroke-dasharray="2,0" />
+
+    <!-- Laces on top ridge -->
+    <line x1="135" y1="98" x2="195" y2="98" class="stroke-detail" />
+    <line x1="145" y1="92" x2="145" y2="104" class="stroke-detail" />
+    <line x1="155" y1="92" x2="155" y2="104" class="stroke-detail" />
+    <line x1="165" y1="92" x2="165" y2="104" class="stroke-detail" />
+    <line x1="175" y1="92" x2="175" y2="104" class="stroke-detail" />
+    <line x1="185" y1="92" x2="185" y2="104" class="stroke-detail" />
+
+    <!-- Vintage Cartoon Face -->
+    <!-- Left Eye -->
+    <ellipse cx="145" cy="138" rx="8" ry="12" fill="#0a3382" />
+    <circle cx="147" cy="134" r="3" fill="#ffffff" />
+    <!-- Right Eye -->
+    <ellipse cx="175" cy="138" rx="8" ry="12" fill="#0a3382" />
+    <circle cx="177" cy="134" r="3" fill="#ffffff" />
+
+    <!-- Cute Eyebrows -->
+    <path d="M 137 122 Q 145 118 152 121" fill="none" class="stroke-detail" />
+    <path d="M 168 121 Q 175 118 183 122" fill="none" class="stroke-detail" />
+
+    <!-- Cheeks / Smile lines -->
+    <path d="M 132 150 Q 134 156 137 154" fill="none" class="stroke-detail" />
+    <path d="M 188 150 Q 186 156 183 154" fill="none" class="stroke-detail" />
+
+    <!-- Big Happy Open Smile -->
+    <path d="M 138 152 Q 160 178 182 152 Q 160 162 138 152 Z" fill="#0a3382" class="stroke-detail" />
+    <!-- Tongue in smile -->
+    <path d="M 152 165 Q 160 158 168 165 C 165 171 155 171 152 165 Z" fill="#ffffff" />
+  </g>
+
+  <!-- Right Arm (reaching forward tossing mini ball) -->
+  <path d="M 220 135 Q 248 135 255 125" fill="none" class="stroke-main" />
+  <!-- Right Cartoon Glove -->
+  <circle cx="258" cy="123" r="6" fill="#ffffff" class="stroke-detail" />
+  <path d="M 258 117 C 263 115 268 122 264 126 C 260 130 256 127 258 117 Z" fill="#ffffff" class="stroke-detail" />
+
+  <!-- Mini Tossed Football in Air -->
+  <g transform="translate(255, 138) rotate(35)">
+    <path d="M 0 12 C 5 0 25 0 30 12 C 25 24 5 24 0 12 Z" fill="#ffffff" class="stroke-detail" />
+    <line x1="8" y1="12" x2="22" y2="12" class="stroke-detail" stroke-width="1.5" />
+    <line x1="12" y1="9" x2="12" y2="15" class="stroke-detail" stroke-width="1.5" />
+    <line x1="15" y1="9" x2="15" y2="15" class="stroke-detail" stroke-width="1.5" />
+    <line x1="18" y1="9" x2="18" y2="15" class="stroke-detail" stroke-width="1.5" />
+  </g>
+</svg>

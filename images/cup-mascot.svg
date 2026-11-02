@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" width="220" height="280">
+  <defs>
+    <style>
+      .stroke-main { stroke: #0a3382; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+      .stroke-detail { stroke: #0a3382; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .sparkle { fill: #0a3382; }
+    </style>
+  </defs>
+
+  <!-- Left running leg -->
+  <path d="M 80 205 Q 60 225 45 240" fill="none" class="stroke-main" />
+  <path d="M 32 242 C 32 235 50 232 58 240 C 62 245 55 252 40 252 C 30 252 32 245 32 242 Z" fill="#ffffff" class="stroke-detail" />
+  <line x1="36" y1="248" x2="52" y2="248" class="stroke-detail" />
+
+  <!-- Right running leg -->
+  <path d="M 125 205 Q 140 225 150 248" fill="none" class="stroke-main" />
+  <path d="M 140 250 C 140 242 160 242 172 248 C 178 252 172 258 152 258 C 142 258 140 253 140 250 Z" fill="#ffffff" class="stroke-detail" />
+  <line x1="145" y1="254" x2="166" y2="254" class="stroke-detail" />
+
+  <!-- Straw -->
+  <path d="M 95 62 L 80 15 L 65 20" fill="none" class="stroke-main" />
+  <line x1="90" y1="50" x2="84" y2="52" class="stroke-detail" />
+  <line x1="86" y1="38" x2="80" y2="40" class="stroke-detail" />
+  <line x1="82" y1="26" x2="76" y2="28" class="stroke-detail" />
+
+  <!-- Left Arm (pumping backwards) -->
+  <path d="M 52 135 Q 30 145 28 165" fill="none" class="stroke-main" />
+  <circle cx="28" cy="168" r="6" fill="#ffffff" class="stroke-detail" />
+  <path d="M 23 166 Q 18 174 27 176" fill="#ffffff" class="stroke-detail" />
+
+  <!-- Right Arm (pumping forward) -->
+  <path d="M 150 130 Q 175 140 178 160" fill="none" class="stroke-main" />
+  <circle cx="178" cy="163" r="6" fill="#ffffff" class="stroke-detail" />
+  <path d="M 178 160 Q 188 166 182 172" fill="#ffffff" class="stroke-detail" />
+
+  <!-- Cup Lid -->
+  <path d="M 45 62 Q 102 55 160 62 L 157 72 Q 102 65 48 72 Z" fill="#ffffff" class="stroke-detail" />
+
+  <!-- Cup Body -->
+  <path d="M 50 72 L 68 202 Q 102 210 137 202 L 155 72 Z" fill="#ffffff" class="stroke-main" />
+  <path d="M 56 84 Q 102 78 149 84" fill="none" class="stroke-detail" opacity="0.6" />
+
+  <!-- Cartoon Face on Cup -->
+  <!-- Left Eye -->
+  <ellipse cx="88" cy="125" rx="6" ry="10" fill="#0a3382" />
+  <circle cx="90" cy="122" r="2.5" fill="#ffffff" />
+  <path d="M 82 113 Q 88 110 94 112" fill="none" class="stroke-detail" />
+
+  <!-- Right Eye -->
+  <ellipse cx="118" cy="125" rx="6" ry="10" fill="#0a3382" />
+  <circle cx="120" cy="122" r="2.5" fill="#ffffff" />
+  <path d="M 112 112 Q 118 110 124 113" fill="none" class="stroke-detail" />
+
+  <!-- Open Smile -->
+  <path d="M 85 142 Q 103 162 121 142 Q 103 148 85 142 Z" fill="#0a3382" class="stroke-detail" />
+  <!-- Tongue -->
+  <path d="M 97 151 Q 103 146 109 151 C 107 156 99 156 97 151 Z" fill="#ffffff" />
+  <!-- Smile lines -->
+  <path d="M 81 141 Q 83 145 85 144" fill="none" class="stroke-detail" />
+  <path d="M 125 141 Q 123 145 121 144" fill="none" class="stroke-detail" />
+</svg>
